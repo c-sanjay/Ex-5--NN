@@ -24,6 +24,7 @@ A Neural network with input layer, one hidden layer with Radial Basis function a
 
 
 <H3>ALGORITHM:</H3>
+```
 Step 1: Initialize the input  vector for you bit binary data<Br>
 Step 2: Initialize the centers for two hidden neurons in hidden layer<Br>
 Step 3: Define the non- linear function for the hidden neurons using Gaussian RBF<br>
@@ -32,10 +33,10 @@ Step 5 : Determine the output  function as
                  Y=W1*φ1 +W1 *φ2 <br>
 Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
-
+```
 <H3>PROGRAM:</H3>
 
-```
+```PY
 import numpy as np
 import matplotlib.pyplot as plt
 
